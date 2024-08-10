@@ -1,0 +1,25 @@
+<div class="quizz__container">
+    <div class="quizz-logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BuzzFeed.svg/1920px-BuzzFeed.svg.png" alt="logo" style=" width:300px">
+       
+        <h2 style="margin-bottom: 30px;">{{title}}</h2>
+        <img src="https://atesegunda.wordpress.com/wp-content/uploads/2015/06/iconezao_houses-pottermore.jpg" alt="">
+    </div>
+
+    <div class="quizz-questions" *ngIf=!finished>
+        <h3>{{questionSelected.question}}</h3>
+    </div>
+
+    <div class="quizz-options" *ngIf=!finished>
+        <button class="btn-option" *ngFor="let option of questionSelected.options; let i = index"
+        (click)="playerChoose(option.alias)">
+            {{option.name}}
+        </button>
+
+    </div>
+    <div class="quizz_results" *ngIf="finished" [ngClass]="getColorClass()" [ngStyle]="{'background-color': getColorClass()}">
+        <h3>Sua casa de Hogwarts é:</h3>
+        <img src="" alt="">
+        <h1>{{answerSelected}}</h1>
+    </div>
+</div>

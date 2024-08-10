@@ -1,0 +1,72 @@
+{
+    "title":"Qual seria sua casa em Hogwarts?",
+    "questions":[
+      {
+        "id":1,
+        "question": "Qual qualidade você mais gostaria de ter ou tem?",
+        "options":[
+          {"id": 1, "name":"Coragem", "alias":"D"},
+          {"id": 2, "name":"Lealdade", "alias":"C"},
+          {"id": 3, "name":"Inteligência", "alias":"A"},
+          {"id": 4, "name":"Astúcia", "alias":"B"}
+        ]
+      },
+      {
+        "id":2,
+        "question": "Qual sua cor preferida?",
+        "options":[
+          {"id": 1, "name":"Azul", "alias":"A"},
+          {"id": 2, "name":"Verde", "alias":"B"},
+          {"id": 3, "name":"Amarelo", "alias":"C"},
+          {"id": 3, "name":"Vermelho", "alias":"D"}
+        ]
+      },
+      {
+        "id":3,
+        "question": "Para qual casa você quer ir?",
+        "options":[
+          {"id": 1, "name":"Sonserina", "alias":"B"},
+          {"id": 2, "name":"Corvinal", "alias":"A"},
+          {"id": 3, "name":"Grifinória", "alias":"D"},
+          {"id": 4, "name":"Lufa-Lufa", "alias":"C"}
+        ]
+      },
+      {
+        "id":4,
+        "question": "Qual animal você prefere?",
+        "options":[
+          {"id": 1, "name":"Leão", "alias":"D"},
+          {"id": 2, "name":"Texugo", "alias":"C"},
+          {"id": 2, "name":"Cobra", "alias":"B"},
+          {"id": 2, "name":"Corvo", "alias":"A"}
+        ]
+      },
+      {
+        "id":5,
+        "question": "Qual disciplina seria sua favorita?",
+        "options":[
+          {"id": 1, "name":"Defesa contra a Arte das Trevas", "alias":"B"},
+          {"id": 2, "name":"Herbologia", "alias":"C"},
+          {"id": 2, "name":"Feitiços", "alias":"D"},
+          {"id": 2, "name":"Trato das Criaturas Mágicas.", "alias":"B"}
+        ]
+      },
+      {
+        "id":6,
+        "question": "Escolha um personagem?",
+        "options":[
+          {"id": 1, "name":"Newt Scamander", "alias":"C"},
+          {"id": 2, "name":"Alvo Dumbledore", "alias":"D"},
+          {"id": 2, "name":"Luna Lovegood", "alias":"A"},
+          {"id": 2, "name":"Tom Riddle", "alias":"B"}
+        ]
+      }
+    ],
+    "results":{
+      "A": "Corvinal!", 
+      "B": "Sonserina!",
+      "C": "Lufa-Lufa!",
+      "D": "Grifinória!"
+    }
+  }
+
