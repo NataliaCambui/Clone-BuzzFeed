@@ -1,7 +1,6 @@
 # Clone-BuzzFeed
 Desafio de código da DIO, 
-Criei um clone da BuzzFeed com Angular
-Quizz das Casas de Hogwarts
+Criei um clone da BuzzFeed com Angular, um Quizz das Casas de Hogwarts.
 
 ![image](https://github.com/user-attachments/assets/5d71780a-8842-483b-a7fb-49ede830d1fe)
 ![image](https://github.com/user-attachments/assets/8f5a0d84-9eed-4497-b4dd-028e90adc6e3)
